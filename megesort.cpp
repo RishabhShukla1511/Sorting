@@ -5,6 +5,7 @@ using namespace std;
 // Function to print the sorted array
 void print(int arr[],int n)
 {
+    cout << "The sorted data is:\n";
     for(int i=0;i<n;i++)
         cout << arr[i] << " ";
 }
